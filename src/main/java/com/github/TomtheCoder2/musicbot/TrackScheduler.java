@@ -28,6 +28,7 @@ public final class TrackScheduler implements AudioLoadResultHandler {
     @Override
     public void noMatches() {
         // LavaPlayer did not find any audio to extract
+        System.out.println("couldn't find this song!");
     }
 
     @Override
